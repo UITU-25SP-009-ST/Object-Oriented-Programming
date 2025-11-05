@@ -2,13 +2,13 @@
 
 // Task - 1
 // Abdul Basit Ali : 25SP-009-ST
-// public class Main{
-//     public static void main(String[] args){
-//         String name = "Abdul Basit Ali";
-//         int age = 20;
-//         System.out.println("Name: " + name + " - Age: " + age);
-//     }
-// }
+public class Main{
+    public static void main(String[] args){
+        String name = "Abdul Basit Ali";
+        int age = 20;
+        System.out.println("Name: " + name + " - Age: " + age);
+    }
+}
 
 // Task - 2
 // Abdul Basit Ali : 25SP-009-ST
