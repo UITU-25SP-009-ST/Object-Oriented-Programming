@@ -56,3 +56,22 @@
 //     }
 // }
 
+
+// Task - 5
+// Abdul Basit Ali : 25SP-009-ST
+import java.util.Scanner;
+public class Main{
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        System.out.print("Enter an integer: ");
+        int num = in.nextInt();
+        System.out.print("Enter a double: ");
+        double value = in.nextDouble();
+        in.nextLine();
+        System.out.print("Enter a string: ");
+        String text = in.nextLine();
+        System.out.println("You entered:");
+        System.out.println("Integer: " + num);
+        System.out.println("Double: " + value);
+        System.out.println("String: " + text);
+    }  }
