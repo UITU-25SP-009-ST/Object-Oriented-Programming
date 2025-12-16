@@ -1,4 +1,3 @@
-
 // OOPs : Lab-5
 
 // Task - 1
@@ -101,32 +100,32 @@
 
 // Task - 5
 // Abdul Basit Ali : 25SP-009-ST
-// import java.util.Scanner;
-// public class Main{
-// public static void main(String[] args){
-// Scanner in = new Scanner(System.in);
-// System.out.print("Enter Array size\nNumber of Rows : ");
-// int r = in.nextInt();
-// System.out.print("Number of Columns : ");
-// int c = in.nextInt();
-// int[][] arr = new int[r][c];
-// for(int i = 0; i < arr.length; i++){
-// for(int j = 0; j < arr[0].length; j++){
-// System.out.print("Value on Row " + i + " and Column "+ j + " : ");
-// arr[i][j] = in.nextInt();
-// }
-// }
-// int sumOfRow;
-// int sumOfColumn;
-// for(int k = 0; k < arr.length; k++){
-// sumOfRow = 0;
-// sumOfColumn = 0;
-// for(int l = 0; l < arr[0].length; l++){
-// sumOfColumn += arr[l][k];
-// sumOfRow += arr[k][l];
-// }
-// System.out.print("Sum of Row " + k + " : " + sumOfRow);
-// System.out.println(" : Sum of Column " + k + " : " + sumOfColumn);
-// }
-// }
-// }
+import java.util.Scanner;
+public class Main{
+public static void main(String[] args){
+Scanner in = new Scanner(System.in);
+System.out.print("Enter Array size\nNumber of Rows : ");
+int r = in.nextInt();
+System.out.print("Number of Columns : ");
+int c = in.nextInt();
+int[][] arr = new int[r][c];
+for(int i = 0; i < arr.length; i++){
+for(int j = 0; j < arr[0].length; j++){
+System.out.print("Value on Row " + i + " and Column "+ j + " : ");
+arr[i][j] = in.nextInt();
+}
+}
+int sumOfRow;
+int sumOfColumn;
+for(int k = 0; k < arr.length; k++){
+sumOfRow = 0;
+sumOfColumn = 0;
+for(int l = 0; l < arr[0].length; l++){
+sumOfColumn += arr[l][k];
+sumOfRow += arr[k][l];
+}
+System.out.print("Sum of Row " + k + " : " + sumOfRow);
+System.out.println(" : Sum of Column " + k + " : " + sumOfColumn);
+}
+}
+}
