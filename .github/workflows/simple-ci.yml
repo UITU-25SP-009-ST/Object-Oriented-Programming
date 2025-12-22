@@ -1,0 +1,17 @@
+name: Simple CI Workflow
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Run Simple Command
+        run: echo "CI pipeline executed successfully"
