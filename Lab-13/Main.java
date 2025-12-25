@@ -132,35 +132,34 @@
 //         r2.getArea();
 //     }
 // }
-import javax.swing.*;
-class Calculator{
-    void add(int a , int b){
-        JOptionPane.showMessageDialog(a + b);
-    }
-    void subtraction(int a , int b){
-        JOptionPane.showMessageDialog(a - b);
-    }
-    void multiplication(int a , int b){
-        JOptionPane.showMessageDialog(a * b);
-    }
-    void Division(int a , int b){
-        JOptionPane.showMessageDialog(a + b);
-    }
-}
-public class Main{
-    public static void main(String[] args){
-        String s = JOptionPane.showInputDialog("Enter Calculation for two digit");
-        String[] arr = s.split(" ");
-        if(arr.length < 3){
-            JOptionPane.showConfirmDialog(null, "Incorrect Input, Format: int symbol int");
-        }
-        else if(arr.length < 3){
-            JOptionPane.showConfirmDialog(null, "Field is Empty.");
-        }
-        Calculator c= new Calculator();
-        if(arr[1] == "+"){
-            System.out.println("working");
-        }
 
-    }
-}
+
+// Task - 5
+// Abdul Basit Ali : 25SP-009-ST
+// class Rectangle{
+//     double width;
+//     double height;
+//     Rectangle(double width , double height){
+//         this.width = width;
+//         this.height = height;
+//     }
+//     Rectangle scale(double factor){
+//         return new Rectangle( (this.width * factor) , (this.width * factor));
+//     }
+//     void getArea(){
+//         System.out.println("Area : " + (height * width));
+//     }
+//     Rectangle merge(Rectangle other){
+//         return new Rectangle(this.width + other.width, this.height + other.height);
+//     }
+// }
+// public class Main{
+//     public static void main(String[] args){
+//         Rectangle r1 = new Rectangle(20, 20);
+//         Rectangle r2 = r1.scale(2);
+//         Rectangle r3 = r1.merge(r2).scale(2);
+//         System.out.println(r1.width);
+//         System.out.println(r2.width);
+//         System.out.println(r3.width);
+//     }
+// }
