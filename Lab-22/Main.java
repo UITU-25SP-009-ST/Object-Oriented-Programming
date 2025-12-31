@@ -41,10 +41,6 @@
 
 // Task - 3
 // Abdul Basit Ali : 25SP-009-ST
-// Design a class Team that has a static field teamName (e.g. String). Inside Team, define a static nested class
-// Member with a field for the member’s name. In main, set Team.teamName to some value, then create several
-// Team.Member objects and print each member’s name along with Team.teamName to show how the static field is
-// shared and accessed by the nested class.
 class Team{
     static String teamName;
     public static class Member{
